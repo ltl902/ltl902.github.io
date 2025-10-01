@@ -1,0 +1,14 @@
+body {
+    background: linear-gradient(135deg, #4f8cff, #a259ff);
+    margin: 32px;
+    padding: 32px;
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button-class {
+    font-family: Papyrus;
+}
