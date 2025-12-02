@@ -4,12 +4,23 @@
             <title>Brody B</title>
             <link rel="icon" href="duck.png">
             <link rel="stylesheet" href="style.css">
+            <script src="js.js"></script>
         </head>
     <body>
         <h1>Hi im Brody welcome to my website</h1>
          <p>Im a student at Warren Tech and Arvada West HS. I like video games and coding and pretty much anything with computers.</p>
         <hr>
 <style>
+.container {
+  position: relative;
+}
+
+.button {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
 .dropbtn {
   background-color: #04AA6D;
   color: white;
@@ -45,10 +56,13 @@
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 </style>
+
+<div class="container">
+  <button onclick="changeBackgroundColor(event)">Dark Mode</button>
+  <button onclick="getFortune()">Get Fortune</button>
 <body style="background-color:white;">
     <div class="dropdown">
   <button class="dropbtn">Button of Redirection</button>
-
     <div class="dropdown-content">
         <a href="https://ltl902.github.io/contacts.html">Contacts</a>
         <a href="https://ltl902.github.io/dino_game.html">Dino game</a>
